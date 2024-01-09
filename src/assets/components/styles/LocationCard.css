@@ -1,0 +1,47 @@
+.location {
+    box-sizing: content-box;
+    background-color:  #062226;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+    justify-items: center;
+    box-shadow: 0 0 2em #0008;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 10px;
+    color: rgba(9, 255, 0, 0.768);
+}
+
+.list {
+   color: white;
+   display: flex;
+   flex-direction:row; 
+   gap: 3rem;
+  margin-bottom: 10px;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list__value {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 7px 0 7px 0;
+}
+
+.list__value__2 {
+    margin: 0 auto;
+    color: gray;
+}

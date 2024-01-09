@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+html {
+    font-family:DM sans ;
+}
+
+body {
+    margin: 0;
+    background-color: #084851;
+}
+
+h1, h2, h3, p, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+input, button{
+    font-family: inherit;
+}
+
+input {
+outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    display: block;
+}

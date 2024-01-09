@@ -1,0 +1,23 @@
+.div__form {
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 60px;
+}
+
+.div__input {
+    border-radius:30px 0 0 30px ;
+    border: none;
+    width: 300px;
+}
+
+.div__btn {
+    border: none;
+    border-radius:0 30px 30px 0;
+    background-color: rgba(172, 255, 47, 0.581);
+    padding: 5px 20px;
+    color: white;
+    font-weight: 600;
+}
+
